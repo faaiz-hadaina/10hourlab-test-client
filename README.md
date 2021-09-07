@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# 10hour Labs Test Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to demonstrate consumtion of graphQl API server.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the packages and dependencies needed to run this project on a local machine.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm start`
 
