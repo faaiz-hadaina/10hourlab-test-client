@@ -31,11 +31,9 @@ function Index(props: any) {
   return (
     <FormControl variant="outlined" className={classes.formControl}>
       <StyledSelect
-        // labelId="demo-simple-select-outlined-label"
         id="demo-simple-select-outlined"
         value={selectvalue}
         onChange={(e: any) => handleChange(e.target.value)}
-        //  label="Age"
       >
         <MenuItem value="Select">Select</MenuItem>
         {props.data.map((element: any, index: number) => (
