@@ -8,8 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Installs all the packages and dependencies needed to run this project on a local machine.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Installs all the packages and dependencies needed to run this project on a local machine.
 
 ### `npm start`
 
