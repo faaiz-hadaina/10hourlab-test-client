@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import FakeTopBar from './View/Components/FakeTopBar';
+import Dialog from './View/Shared/DateDialog';
+import AppContainer from './View/Shared/Containers/AppContainer.styled';
+import ReportCard from './View/Components/ReportCard';
+import ChartCard from './View/Components/ChartCard';
+import BodyContainer from './View/Shared/Containers/BodyContainer';
+import Header from './View/Components/Header';
+import Container from './View/Shared/Containers/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <Dialog />
+      <FakeTopBar />
+      <BodyContainer>
+        <Header />
+        <Container>
+          <ReportCard />
+          <ChartCard />
+        </Container>
+      </BodyContainer>
+    </AppContainer>
   );
 }
 
